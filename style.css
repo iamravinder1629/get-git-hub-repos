@@ -91,3 +91,17 @@ ul li{
         transform: rotate(360deg);
     }
 }
+
+
+@media only screen and (max-width: 575px) {
+    .right {
+            border-radius: 15px 15px 0px 0px;
+            background-color: #31473a;
+        }
+    
+        .left {
+            border-radius: 0px 0px 15px 15px;
+            background-color: #31473a;
+            color: #edf4f2;
+        }
+}
