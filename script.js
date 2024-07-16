@@ -24,7 +24,7 @@ const getdetails = async (username) => {
         const card =
             `<div class="row mx-0 p-2 justify-content-center">
                     <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 d-flex align-items-center justify-content-center right">
-                        <div class="profile">
+                        <div class="profile my-5">
                             <img src="${data.avatar_url}" alt="">
                         </div>
                     </div>
